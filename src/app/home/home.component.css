@@ -1,0 +1,397 @@
+/* CSS PAGE HOME */
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteudo-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-plats{
+    z-index: 26;
+    font-family: "GeosansLight", sans-serif;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    padding-top: 240px;
+}
+.text-plats-discretion{
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #777777;
+    text-align: left;
+    line-height: 1.929;
+    padding-top: 20px;
+}
+.position-home-plats{
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    top: 0px
+}
+
+.position-home-plats img{
+    width: 780px;
+    height: auto;
+    float: right;
+}
+
+.effect-bg{
+    position: absolute;
+    top: 180px;
+    right: 0px;
+}
+
+.effect-bg img{
+    width: 100%;
+}
+
+.possition-text-plats{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.position-p2{
+    width: 100%;
+    float: left;
+    margin: 0px;
+}
+
+.position-q2{
+    width: 100%;
+    float: left;
+    margin: 0px;
+}
+
+.text-p2{
+    font-family: "GeosansLight", sans-serif;
+    font-size: 45px;
+    text-align: center;
+    padding: 25px 0px;
+    margin: 0px;
+}
+
+.text-q2{
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px 0px;
+    margin: 0px;
+}
+
+.position-tipos{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0px;
+    float: left;
+}
+
+.centralize{
+    width: 70%;
+    margin: auto;
+}
+.tipo{
+    width: 200px;
+    float: left;
+    margin: 0px 50px;
+}
+.tipo-1{
+    width: 200px;
+    float: left;
+    
+}
+.tipo-2{
+    width: 200px;
+    float: left;
+    
+}
+.tipo-3{
+    width: 200px;
+    float: left;
+    
+}
+
+.img-analise{
+    width: 119px;
+    margin: auto;
+}
+.img-custo{
+    width: 119px;
+    margin: auto;
+}
+.img-cronograma{
+    width: 119px;
+    margin: auto;
+}
+
+.text-analise{
+    font-family: "Arial", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0px;
+}
+.text-custo{
+    font-family: "Arial", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0px;
+}
+.text-cronograma{
+    font-family: "Arial", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.paragraf-tipo{
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.position-faixa{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    padding: 10px 0px;
+    float: left;
+}
+
+.faixa{
+    width: 100%;
+    height: 120px;
+    background-color: #000;
+    background-image: linear-gradient(to right, #84a8c3 , #07095f);
+}
+.position-text-faixa{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 100%;
+    height: 100%;
+}
+.text-faixa{
+    font-family: "Arial", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    width: 50%;
+}
+
+.position-button-faixa{
+    position: relative;
+    width: 50%;
+    margin: auto;
+    padding: 10px 0px;
+    
+}
+
+/* == CSS BUTTON == */
+.btn-lg {
+    padding: .4rem 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.btn-primary {
+    color: #07095f;
+    background-color: #e9f3fb;
+    border-color: #d4e8f8;
+}
+
+.btn {
+    display: inline-flex;
+    font-family: "Arial", sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #07095f;
+    text-align: center;
+    vertical-align: middle;
+    float:right;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #e9f3fb;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    padding: .4rem 2.0rem;
+    line-height: 1.5;
+    border-radius: 50px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.position-button-home{
+    width: 100%;
+    float: left;
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+.link-button a:hover{
+    text-decoration: none;
+}
+
+/* Ripple effect */
+.ripple {
+    background-position: center;
+    transition: background 0.8s;
+}
+.ripple:hover {
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+.ripple:active {
+    background-color: #6eb9f7;
+    background-size: 100%;
+    transition: background 0s;
+  }
+  
+/* Button style */
+button{
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    text-transform: none;
+    color: white;
+    background-color: #2196f3;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 0 4px #999;
+    padding: 12px 55px;
+    cursor: pointer;
+    outline: none;
+}
+
+/*=== CSS TYPE RESPONSIVE VIEW ===*/
+@media screen and (max-width: 980px){
+    .possition-text-plats{
+        position: relative;
+        z-index: 0;
+        width: 100%;
+        height: 600px;
+        float: left;
+    }
+    .text-faixa{
+        font-family: "Arial", sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0px;
+        padding: 0px;
+        padding-left: 0px;
+        width: 100%;
+    }
+    .text-plats{
+        z-index: 0;
+        position: relative;
+        font-size: 46px;
+        font-family: "GeosansLight", sans-serif;;
+        color: rgb(0, 0, 0);
+        line-height: 1.2;
+        text-align: center;
+        left: 0px;
+        top: 0px;
+        margin: 0px;
+        padding: 0px;
+        padding-top: 50%;
+    }
+    .position-button-faixa{
+        position: relative;
+        width: initial;
+        margin: auto;
+        padding: 0px;
+    }
+    .position-home-plats{
+        z-index: 0;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        top: 0px;
+        background-color: #e6f3fb;
+    }
+    
+    .position-home-plats img{
+        width: inherit;
+        height: auto;
+        float: right;
+    }
+    .effect-bg {
+        position: relative;
+        top: 0px;
+        right: 0px;
+    }
+    .effect-bg img{
+        width: 0px;
+        height: 0px;
+    }
+    /* == CSS BUTTON RESPONSIVE == */
+    .btn-lg {
+        padding: .4rem 1.5rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        border-radius: .3rem;
+    }
+
+    .btn-primary {
+        color: #07095f;
+        background-color: #e9f3fb;
+        border-color: #d4e8f8;
+    }
+
+    .btn {
+        display: inline-flex;
+        font-family: "Arial", sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #07095f;
+        text-align: center;
+        vertical-align: middle;
+        float:right;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: #e9f3fb;
+        border: 1px solid transparent;
+        margin: 0px;
+        padding: .4rem 2.0rem;
+        line-height: 1.5;
+        border-radius: 5px;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+
+}

@@ -1,0 +1,151 @@
+/* ==== CSS APP COMPONENT ROOT ====*/
+
+/* POSITION MENU */
+.position-menu{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: auto;
+}
+
+.conteudo {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    padding: 0px;
+    margin: auto;
+}
+
+a:hover.navbar-brand{
+    background-color: #FFF;
+    padding: 0px;
+}
+
+.img-home-plats{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    top: 0px
+}
+
+.img-home-plats img{
+    width: 700px;
+    height: auto;
+    float: right;
+}
+
+/*  CSS TOP NAVBAR - Bootstrap reformado*/
+.font-weight-bold{
+    font-weight: bold;
+}
+
+.bg-light {
+    background-color: #FFFFFF!important;
+}
+
+.margin-login{
+    margin-right: 10px;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    text-align: center
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #000000;
+    border-radius: 5px;
+}
+
+.text-nav{
+    font-family: "Arial", sans-serif;
+    font-size: 1rem;
+    line-height: none;
+}
+
+.nav-cadastro{
+    background-color: #e9f3fb;
+    border-radius: 5px;
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .navbar {
+        z-index: 50;
+        position: fixed;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 1rem .5rem;
+        width: 100%;
+    }
+    .conteudo {
+        position: relative;
+        width: 100%;
+        padding: 0px;
+        margin: auto;
+    }
+  }
+
+@media (min-width: 768px){
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding: .5rem 1.5rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+    a:hover{
+        color: #000;
+        padding: .5rem 1.5rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        
+        border-radius: 5px;
+        background-color: #e9f3fb;
+    }
+    .position-menu{
+        width: 70%;
+        height: 100%;
+        margin: auto;
+    }
+    
+}
