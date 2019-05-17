@@ -8,7 +8,7 @@
 }
 
 .navbar-brand {
-    display: inline-block;
+    display: block;
     padding-top: .3125rem;
     padding-bottom: .3125rem;
     margin-right: 1rem;
@@ -78,8 +78,8 @@ a:hover.navbar-brand{
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #000;
-    text-align: center
+    color: #2196f3; /*3884d0*/
+    text-align: center;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
@@ -140,7 +140,7 @@ a:hover.navbar-brand{
         padding-left: 1.5rem;
         
         border-radius: 5px;
-        background-color: #e9f3fb;
+        background-color: #e3f2fd; /*e9f3fb*/
     }
     .position-menu{
         width: 70%;
