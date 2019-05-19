@@ -12,6 +12,8 @@ import { ContatoComponent } from './contato/contato.component';
 import { LoginComponent } from './login/login.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { AdminComponent } from './admin/admin.component';
+import { PlataformaComponent } from './plataforma/plataforma.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     ContatoComponent,
     LoginComponent,
     CadastroComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    AdminComponent,
+    PlataformaComponent
     
   ],
   imports: [
