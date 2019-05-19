@@ -1,0 +1,84 @@
+/* == CSS PAGE CONTATO COMPONENT == */
+
+.position-contato{
+    width: 100%;
+    margin: auto;
+}
+
+.position-tittle-contato{
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+}
+
+.tittle-contato{
+    font-family: 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.position-form-contato{
+    width: 70%;
+    margin: auto;
+    padding: 35px 0px 0px 0px;
+    
+}
+.position-form{
+    width: 100%;
+    margin: auto;
+}
+
+.position-button-submit{
+    width: 66%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+/* CSS PART BUTTON */
+
+.btn{
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: .385rem 50px;
+}
+
+button {
+    cursor: pointer;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+button {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* CSS RESPONSIVE CONTATO COMPONENT */
+@media screen and (max-width: 980px){
+    .position-tittle-contato{
+        width: 100%;
+        margin: auto;
+        padding: 80px 0px 0px 0px;
+    }
+}
+
